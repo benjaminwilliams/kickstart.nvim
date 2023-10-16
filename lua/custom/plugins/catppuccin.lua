@@ -6,6 +6,8 @@ return {
     priority = 1000,
     opts = {
       color_overrides = {
+        -- Custom colours
+        -- long-macc https://github.com/benjaminwilliams/long-macc
         mocha = {
           rosewater = "#dacbc4",
           flamingo = "#e2ae96",

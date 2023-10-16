@@ -228,7 +228,6 @@ require('lazy').setup({
   --
   --    For additional information see: https://github.com/folke/lazy.nvim#-structuring-your-plugins
  { import = 'custom.plugins' },
- { import = 'custom.config' }
 }, {})
 
 -- [[ Setting options ]]
@@ -273,6 +272,8 @@ vim.o.completeopt = 'menuone,noselect'
 vim.o.termguicolors = true
 
 -- [[ Basic Keymaps ]]
+
+vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', { desc = 'Neo tree' })
 
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
