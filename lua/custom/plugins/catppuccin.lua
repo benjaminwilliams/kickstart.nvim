@@ -3,12 +3,13 @@ return {
     "catppuccin/nvim",
     name = "catppuccin",
     flavor = "mocha",
+    transparent_background = true,
     priority = 1000,
     opts = {
       color_overrides = {
         -- Custom colours
         -- long-macc https://github.com/benjaminwilliams/long-macc
-        mocha = {
+        all = {
           rosewater = "#dacbc4",
           flamingo = "#e2ae96",
           pink = "#e2ae96",
