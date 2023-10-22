@@ -3,9 +3,13 @@ return {
     "catppuccin/nvim",
     name = "catppuccin",
     flavor = "mocha",
-    transparent_background = true,
-    priority = 1000,
+    background = {
+      light = "latte",
+      dark = "mocha"
+    },
+    term_colors = false,
     opts = {
+      transparent_background = true,
       color_overrides = {
         -- Custom colours
         -- long-macc https://github.com/benjaminwilliams/long-macc
@@ -66,6 +70,7 @@ return {
         telescope = true,
         treesitter = true,
         which_key = true,
+        vimwiki = true,
       },
     },
   },
